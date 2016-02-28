@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="pp_ads" >
+	   <columns>
+			<column name="id" type="int(11)" autoIncrement="true"/>
+			<column name="platform" type="int(11)" defaultValue="32" />
+			<column name="position_type" type="int(11)" />
+			<column name="position_type_data" type="varchar(256)" />
+			<column name="position_no" type="int(11)" />
+			<column name="position_data" type="varchar(256)" />
+			<column name="create_time" type="int(11)" defaultValue="1421942399"/>
+			<column name="update_time" type="int(11)" defaultValue="1421942399"/>
+			<column name="begin_time" type="int(11)" />
+			<column name="end_time" type="int(11)" />
+			<column name="visible" type="tinyint(1)" defaultValue="1"/>
+			<column name="obj_table" type="varchar(50)" defaultValue="v9_download"/>
+			<column name="isbottom" type="tinyint(1)" defaultValue="0"/>
+			<column name="isdisplay" type="tinyint(1)" defaultValue="1"/>
+	    </columns>
+	  </table>
+</tables>

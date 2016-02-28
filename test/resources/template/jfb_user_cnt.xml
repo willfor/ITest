@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="jfb_user_cnt">
+		<columns>
+			<column name="ucid" type="bigint(20)" uniqueSequenceNumber="1-3000" />
+			<column name="tb_user_id" defaultValue="5" type="bigint(20)" />
+			<column name="amount_total" defaultValue="1" type="int(11)" />
+			<column name="create_time" defaultValue="1419955199999" type="bigint(20)" />
+			<column name="update_time" defaultValue="1419955199999" type="bigint(20)" />
+		</columns>
+	</table>
+</tables>

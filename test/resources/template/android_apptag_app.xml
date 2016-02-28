@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 标签对应 apkid- android_apptag.id = android_apptag_app.apptag_id android_apptag_app.app_id 
+		= android_app.id -->
+	<table name="android_apptag_app">
+		<columns>
+			<column name="app_id" defaultValue="" type="int(11)" uniqueSequenceNumber="6515-6530" autoIncrement="true"/>
+			<column name="apptag_id" defaultValue="" type="int(11)" uniqueSequenceNumber="1-3000" />
+			<column name="sort_num" defaultValue="" type="int(11)" uniqueSequenceNumber="1-3000" />
+			<column name="weight" defaultValue="" type="varchar(40)" uniqueSequenceNumber="0,1" />
+		</columns>
+	</table>
+</tables>

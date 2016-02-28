@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	 <table name="android_special_to_page" >
+        <columns>
+			<column name="id" type="int(11)" autoIncrement="true" />
+			<column name="sid" type="int(11)" />
+			<column name="spid" type="int(11)" />
+		 </columns>
+	</table>
+</tables>

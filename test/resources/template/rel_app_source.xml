@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="rel_app_source">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="source_id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" />
+			<column name="source_type" defaultValue="1" type="" uniqueSequenceNumber="0,1,2,3" />
+			<column name="resource_id"  type="int(11)"
+				uniqueSequenceNumber="6500-822222" />
+			<column name="resource_type" defaultValue="0" type="tinyint(2)"
+				uniqueSequenceNumber="0,1,2" />
+			<column name="create_time" defaultValue="1" type="bigint(20)"
+				 />
+			<column name="update_time" defaultValue="1" type="bigint(20)"
+				 />
+			<column name="deleted" defaultValue="0" type="tinyint(2)"
+				 />
+		</columns>
+	</table>
+</tables>

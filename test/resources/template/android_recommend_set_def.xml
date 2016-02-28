@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	 <table name="android_recommend_set_def" >
+    <columns>
+		<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="6500-6530" autoIncrement="true"/>
+		<column name="recommend_type" type="tinyint(4)"  uniqueSequenceNumber="0,1,2,3,4"/>
+		<!-- 推荐集类型:0(专题)、1(单应用)、2(软件榜单)、3(游戏榜单)、4（软件分类）、5（游戏分类）、6(功能入口) -->
+		<column name="app_num" type="int(11)"  defaultValue="3"   />
+		<!-- 推荐集app显示数量 -->
+		<column name="title" type="varchar(255)" defaultValue="推荐集专题" />
+		<column name="data_hint" type="varchar(255)" defaultValue="351" />
+		<!-- 单应用、榜单、功能入口推荐集获取数据源的入口值 -->
+		<column name="app_pool" type="varchar(1024)" defaultValue="6214690,2449451,2321373,2324051"/>
+		<column name="status" type="tinyint(4)" defaultValue="1" />
+	</columns>
+	</table>
+</tables>

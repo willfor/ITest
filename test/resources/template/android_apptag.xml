@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 应用标签名 android_apptag.id = android_apptag_app.apptag_id -->
+	<table name="android_apptag">
+		<columns>
+			<column name="id"  type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="sort_num"  type="int(11)"
+				uniqueSequenceNumber="1-3000" />
+			<column name="name" type="varchar(40)"
+				uniqueSequenceNumber="有态度,音乐达人,购物狂,文艺范儿" />
+			<column name="create_time" type="datetime"
+				defaultValue="2014-10-27 11:35:16" />	
+			<column name="modify_time" type="datetime"
+				defaultValue="2014-10-27 11:35:16" />	
+		</columns>
+	</table>
+</tables>

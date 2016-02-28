@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 推荐位应用管理表 android_position（posid） = android_position_data(posid) android_position_data(apkid)=andriod_app(id) -->
+	<table name="android_position_data">
+		<columns>
+			<column name="id" defaultValue="" type="int(10)"  uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="apkid" defaultValue="" type="int(11)" uniqueSequenceNumber="6500-6514" /> 
+			<column name="posid" defaultValue="101" type="smallint(5)" />
+			<column name="listorder" defaultValue="" type="int(11)" uniqueSequenceNumber="1-3000" />
+		</columns>
+	</table>
+</tables>

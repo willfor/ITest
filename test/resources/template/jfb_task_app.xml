@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="jfb_task_app">
+		<columns>
+			<column name="id" defaultValue="" type="bigint(20)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="ucid" type="bigint(20)" uniqueSequenceNumber="1-3000" />
+			<column name="tb_user_id" defaultValue="5" type="bigint(20)" />
+			<column name="uuid_md5" defaultValue="1" type="varchar(32)" />
+			<column name="app_id" defaultValue="1419955199999" type="int(11)" />
+			<column name="package_name" defaultValue="1419955199999" type="varchar(255)" />
+			<column name="amount" defaultValue="1419955199999" type="int(11)" />
+			<column name="version_code" defaultValue="1419955199999" type="int(11)" />
+			<column name="award_status" defaultValue="1419955199999" type="int(11)" />
+			<column name="award_time" defaultValue="1419955199999" type="tinyint(4)" />
+			<column name="create_time" defaultValue="1419955199999" type="bigint(20)" />
+			<column name="update_time" defaultValue="1419955199999" type="bigint(20)" />
+		</columns>
+	</table>
+</tables>

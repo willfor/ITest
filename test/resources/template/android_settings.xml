@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 运营标签的个数- -->
+	<table name="android_settings">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="setting_name" type="varchar(255)"
+				uniqueSequenceNumber="download.coefficient,user.tag.app.num" />
+			<column name="setting_value" type="varchar(255)"
+				uniqueSequenceNumber="27,10" />
+			<column name="status" defaultValue="1" type="tinyint(3)" />
+			<column name="option_group" defaultValue="default" type="varchar(255)" />
+
+		</columns>
+	</table>
+</tables>

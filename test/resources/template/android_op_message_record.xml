@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_op_message_record" >
+	   <columns>
+		<column name="id" type="int(11)" uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+		<column name="message_id" type="int(11)" />
+		<column name="uid" type="varchar(128)" />
+		<column name="create_time" type="datetime" />
+		</columns>
+	</table>
+</tables>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	     <table name="android_personality_qqavatar_picinfo">
+          <columns>
+              <column name="id" type="int(11)" uniqueSequenceNumber="1-300" autoIncrement="false"/>
+              <column name="file_format" type="varchar(64)" defaultValue=".jpg"  />
+              <column name="file_size" type="int(11)" defaultValue="1024"  />
+              <column name="file_path" type="varchar(256)" defaultValue="/2014/0101/qqavatar_picinfo_file_path.jpg"  />
+              <column name="source_site" type="varchar(64)" defaultValue=""  />
+              <column name="is_recommend" defaultValue="" type="int(11)"  />
+              <column name="listorder" type="int(11)" defaultValue="0"  />
+              <column name="collect_download_count" defaultValue="0" type="int(11)"  />
+              <column name="download_count" type="int(11)" defaultValue="0"  />
+              <column name="modify_time" type="datetime" defaultValue="2014-09-24 13:58:23"  />
+              <column name="create_time" type="datetime" defaultValue="2014-09-24 13:58:23" />
+              <column name="tag_id" type="int(11)" uniqueSequenceNumber="1-300" />
+              <column name="group_id" type="int(11)" uniqueSequenceNumber="1-300"/>
+              <column name="cat_id" type="int(11)" uniqueSequenceNumber="1-300" />
+              <column name="title" type="varchar(255)" defaultValue=""  />
+              <column name="status" type="int(11)" defaultValue="1"/>
+          </columns>
+      </table>
+</tables>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	  <table name="android_keyword">
+          <columns>
+              <column name="id" type="int(11)" defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="true"/>
+              <column name="keyword" type="char(50)" defaultValue="" uniqueSequenceNumber="10000-20000"/>
+              <column name="pinyin" type="char(50)" defaultValue="guan jian zi mo ren" />
+              <column name="searchnums" type="int(10)" defaultValue="100" uniqueSequenceNumber="1-10000"/>
+              <column name="phone_typeid" type="tinyint(1)" defaultValue="1" uniqueSequenceNumber="1,2,4,5"/>
+              <column name="type" type="char(20)" defaultVaule="soft_game" uniqueSequenceNumber="soft_game,bizhi,ring"/>
+          </columns>
+      </table>
+</tables>

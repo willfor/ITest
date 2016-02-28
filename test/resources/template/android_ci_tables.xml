@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+ <table name="andriod_test_type">
+        <clumns>
+            <column name="type_id" type="int(5)" autoIncrement="true"/>
+            <column name="type_name" type="varchar(20)" />
+        </clumns>
+  </table>
+  <table name="android_device_info">
+        <clumns>
+            <column name="device_id" type="int(11)" autoIncrement="true"/>
+            <column name="device_brand" type="varchar(30)" />
+            <column name="device_model" type="varchar(30)" /> 
+            <column name="imei" type="varchar(30)" />  
+            <column name="memory" type="varchar(30)" />
+            <column name="system_version" type="varchar(30)" />
+            <column name="screen_resolution" type="varchar(30)" /> 
+            <column name="sequence_number" type="varchar(30)" />
+            <column name="builder" type="varchar(30)" />    
+        </clumns>
+    </table>
+    
+    <table name="android_main_task">
+        <clumns>
+            <column name="main_task_id" type="int(11)" autoIncrement="true"/>
+            <column name="package_task_id" type="int(11)" />
+            <column name="create_time" type="datetime" nickName="mainTask_createTime"/> 
+            <column name="end_time" type="datetime" nickName="mainTask_endTime"/>
+            <column name="state" type="tinyint(3)" nickName="mainTask_status"/>    
+        </clumns>
+    </table>
+    
+    
+    <table name="android_sub_task">
+        <clumns>
+            <column name="sub_task_id" type="int(11)"  autoIncrement="true"/>
+            <column name="main_task_id" type="int(11)" />
+            <column name="test_type_id" type="int(11)" /> 
+            <column name="url" type="varchar(100)" nickName="report_url"/>
+            <column name="result" type="varchar(20)"/>
+            <column name="creatTime" type="datetime" nickName="subTask_createTime"/>
+            <column name="endTime" type="datetime" nickName="subTask_endTime"/>
+            <column name="device_id" type="int(11)" />
+            <column name="status" type="varchar(20)" nickName="subTask_status"/>       
+        </clumns>
+    </table>
+    
+    <table name="android_test_case">
+        <clumns>
+            <column name="test_case_id" type="int(11)" autoIncrement="true"/>
+            <column name="test_type_id" type="int(11)" />
+            <column name="case_desc" type="varchar(200)" /> 
+        </clumns>
+    </table>
+    
+    
+    <table name="android_test_cpu">
+        <clumns>
+            <column name="cpu_test_id" type="int(11)" autoIncrement="true"/>
+            <column name="sub_task_id" type="int(11)" />
+            <column name="cpu_percentage" type="varchar(50)" /> 
+            <column name="process" type="varchar(50)" />  
+            <column name="test_case_id" type="int(11)" /> 
+        </clumns>
+    </table>
+    
+      <table name="android_test_download">
+        <clumns>
+            <column name="test_download_id" type="int(20)" autoIncrement="true"/>
+            <column name="subtask_id" type="int(20)" />
+            <column name="url" type="varchar(255)" /> 
+            <column name="file_size" type="int(20)" />  
+            <column name="speed" type="varchar(50)" /> 
+            <column name="download_time" type="varchar(50)" /> 
+            <column name="create_time" type="datetime" nickName="download_createTime"/>
+        </clumns>
+    </table>
+    
+     <table name="packtask">
+        <clumns>
+            <column name="taskId" type="int(20)" autoIncrement="true"/>
+            <column name="ppserver" type="varchar(100)" />
+            <column name="channel" type="varchar(20)" /> 
+            <column name="url" type="int(20)" nickName="apk_download_url"/>  
+            <column name="creatTime" type="datetime" nickName="pt_creatTime"/> 
+            <column name="doneTime" type="datetime" nickName="pt_endTime"/>
+            <column name="status" type="tinyint(4)" nickName="pt_status"/>
+            <column name="type" type="tinyint(4)" />
+            <column name="versionId" type="int(11)" />
+            <column name="branchId" type="int(11)" />
+            <column name="typestatus" type="tinyint(4)" />
+            <column name="apkname" type="varchar(10)" />
+            <column name="sign" type="varchar(10)" />
+        </clumns>
+    </table>
+      
+    
+</tables>

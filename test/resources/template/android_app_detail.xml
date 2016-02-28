@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 应用详情表 android_app_detail.apkid = android_app_version.apkid -->
+	<table name="android_app_detail">
+		<columns>
+			<column name="apkid" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="6500-6530" />
+			<column name="screenShort"
+				defaultValue="uploadfile/android/images/2014/0317/20140317110034644.png"
+				type="varchar(2048)" />
+			<column name="content" defaultValue="中国最具社会影响力和传奇性的著名流行女歌手、唱作人，华语乐坛天后级人物，。"
+				type="text"  />
+			<column name="notupdate" defaultValue="1" type="tinyint(2) unsigned"
+				uniqueSequenceNumber="0,1" />
+		</columns>
+	</table>
+</tables>

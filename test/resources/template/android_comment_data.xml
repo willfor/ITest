@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_comment_data" >
+		<columns>
+			<column name="id" type="int(10)" autoIncrement="true"/>
+			<column name="app_id" type="int(11)" defaultValue="2114131"/>
+			<column name="appver_id" type="int(11)" defaultValue="1846720" />
+			<column name="user_id" type="bigint(20)" defaultValue="1000244"/>
+			<column name="username" type="varchar(20)" defaultValue="zhoulz"/>
+			<column name="pub_time" type="int(10)" defaultValue="1"/>
+			<column name="status" type="tinyint(1)" defaultValue="1"/>
+			<column name="content" type="text" defaultValue="comment"/>
+			<column name="stars" type="decimal(4,1)" defaultValue="6.0"/>
+			<column name="ip" type="varchar(15)" defaultValue="127.0.0.1"/>
+			<column name="ip_area" type="varchar(20)" defaultValue=""/>
+			<column name="c_good" type="int(8)" defaultValue="0"/>
+			<column name="c_bad" type="int(8)" defaultValue="0"/>
+			<column name="sec_id" type="int(10)" defaultValue="0"/>
+			<column name="p_id" type="int(10)" defaultValue="0"/>
+			<column name="top_id" type="int(10)" defaultValue="0"/>
+			<column name="uplink" type="text" defaultValue="0"/>
+			<column name="source" type="tinyint(11)" defaultValue="3"/>
+			<column name="brand" type="varchar(64)" defaultValue="samsung GT-I9500"/>
+			<column name="liked_count" type="int(11)" defaultValue="0"/>
+			<column name="account_type" type="tinyint(1)" defaultValue="0"/>
+			<column name="online_status" type="tinyint(4)" defaultValue="1"/>
+		</columns>
+	</table>>
+</tables>

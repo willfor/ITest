@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_app_sub_category">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="name" defaultValue="1" type="varchar(255)" />
+			<column name="type" defaultValue="2001" type="varchar(255)" />
+			<column name="createtime" defaultValue="2001" type="int(11)" />
+			<column name="catid" defaultValue="1" type="int(11)" />
+		</columns>
+	</table>
+</tables>

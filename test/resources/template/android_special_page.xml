@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_special_page" >
+		<columns>
+			<column name="id" type="int(11)" autoIncrement="true"/>
+			<column name="content" type="text" defaultValue="test"/>
+			<column name="create_time" type="datetime" defaultValue="2014-09-24 13:58:23"/>
+			<column name="update_time" type="datetime" defaultValue="2014-09-24 13:58:23"/>
+			<column name="status" type="int(11)" defaultValue="1"/>
+			<column name="type" type="int(11)" defaultValue="2"/>
+			<column name="name" type="varchar(50)" />
+			<column name="preview_id" type="int(11)" defaultValue="6"/>
+	   </columns>
+	</table>
+</tables>

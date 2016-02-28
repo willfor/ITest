@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	      <table name="android_personality_qqavatar_group_to_tag">
+          <columns>
+              <column name="id" type="int(11)" uniqueSequenceNumber="1-300" autoIncrement="false"/>
+              <column name="groupid" type="int(11)" uniqueSequenceNumber="1-300"/>
+              <column name="tagid" type="int(11)" uniqueSequenceNumber="1-300"/>
+          </columns>
+      </table>
+</tables>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="android_pp_upgrade_settings">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="version_name" defaultValue="1" type="varchar(64)" />
+			<column name="channel_id" defaultValue="2001" type="varchar(64)" />
+			<column name="is_force" defaultValue="0" type="tinyint(3)" />
+			<column name="target_versionid" defaultValue="2001" type="int(11)" />
+			<column name="download_count" defaultValue="1" type="bigint(20)" />
+			<column name="status" defaultValue="1" type="int(11)" />
+			<column name="max_count" defaultValue="0" type="bigint(20)" />
+			<column name="type" defaultValue="0" type="int(11)" />
+			<column name="excluded_version_name" defaultValue="0"
+				type="varchar(128)" />
+			<column name="version_code" defaultValue="0" type="int(11)" />
+			<column name="vercode_match_type" defaultValue="lt" type="varchar(64)" />
+		</columns>
+	</table>
+</tables>

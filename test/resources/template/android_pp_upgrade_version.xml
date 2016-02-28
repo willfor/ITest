@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="android_pp_upgrade_version">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="version_code" defaultValue="1" type="int(11)" />
+			<column name="version_name" defaultValue="2001" type="varchar(128)" />
+			<column name="size" defaultValue="2001" type="bigint(20)" />
+			<column name="download_url" defaultValue="1" type="varchar(521)" />
+			<column name="productId" defaultValue="2001" type="int(11)" />
+		</columns>
+	</table>
+</tables>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_app_sub_catid_link">
+		<columns>
+			<column name="app_id" defaultValue="22967" type="int(11)"
+				uniqueSequenceNumber="1-3000" />
+			<column name="sub_catid" defaultValue="720" type="int(11)" />
+		</columns>
+	</table>
+</tables>

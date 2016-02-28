@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+    <table name="sync_app_check_safe" shardColumn="apk_md5" modebase="8" >
+        <columns>
+            <column name="id" type="bigint(20)" autoIncrement="true" />
+            <column name="apk_md5" type="char(32)" defaultValue="" />
+            <column name="package_id" type="bigint(20)" defaultValue="" />
+            <column name="type" type="tinyint(3)" defaultValue="0" />
+            <column name="status" type="tinyint(2)" defaultValue="1" />
+            <column name="level" type="tinyint(2)" defaultValue="0" />
+            <column name="virus_type" type="varchar(32)" defaultValue="1" />
+            <column name="virus_name" type="varchar(255)" defaultValue="virus_name_test" />
+            <column name="virus_desc" type="varchar(255)" defaultValue="钓鱼盗号" />
+            <column name="is_official" type="tinyint(2)" defaultValue="0" />
+            <column name="is_ad" type="tinyint(2)" defaultValue="0" />
+            <column name="deleted" type="tinyint(2)" defaultValue="0" />
+            <column name="create_time" type="datetime" defaultValue="" />
+            <column name="update_time" type="datetime" defaultValue="" />
+            <column name="sync_status" type="tinyint(2)" defaultValue="1" />
+            <column name="batch_id" type="varchar(30)" defaultValue="1" />
+        </columns>
+    </table>
+</tables>

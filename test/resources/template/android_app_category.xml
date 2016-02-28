@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 应用归属类 -->
+	<table name="android_app_category">
+		<columns>
+			<column name="catid" type="smallint(5) unsigned"
+				uniqueSequenceNumber="5014-5029" autoIncrement="true"/>
+			<column name="catname" defaultValue="通讯社交" type="varchar(30)" />
+			<column name="module"  type="varchar(10)"
+				uniqueSequenceNumber="soft,game" />
+			<column name="description" defaultValue="软件" type="mediumtext"
+				uniqueSequenceNumber="1,2,3" />
+			<column name="image"
+				defaultValue="/fs01/2014/10/09/0_76947e4962aa4bd39a0def8d2c344e71.png"
+				type="varchar(255)" uniqueSequenceNumber="0,1" />
+			<column name="items" defaultValue="" type="mediumint(8) unsigned"
+				uniqueSequenceNumber="1-3000" />
+			<column name="listorder" defaultValue="" type="smallint(5) unsigned"
+				uniqueSequenceNumber="1-3000" />
+		</columns>
+	</table>
+</tables>

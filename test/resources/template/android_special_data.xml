@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="android_special_data" >
+	   	<columns>
+			<column name="id" type="mediumint(8)" autoIncrement="true"/>
+			<column name="speid" type="smallint(5)"/>
+			<column name="listorder" type="mediumint(8)" />
+			<column name="synedit" type="tinyint(1)" defaultValue="0"/>
+			<column name="tag_id" type="int(11)" defaultValue="0"/>
+	   </columns>
+	</table>
+</tables>

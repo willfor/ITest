@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 应用优先抛包表 prior_package -->
+	<table name="prior_package">
+		<columns>
+            <column name="id" type="int(11)" 
+                defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="true"/>
+            <column name="app_id" defaultValue="1" type="int(11)" />
+            <column name="package_id" defaultValue="800000423" type="bigint(20)"  />            
+            <column name="create_time" defaultValue="2015-01-30 14:56:53" type="datetime"  />            
+            <column name="update_time" defaultValue="2015-01-30 14:56:53" type="datetime" />
+            <column name="start_time" defaultValue="2015-01-30 14:56:53" type="datetime"  />
+            <column name="end_time" defaultValue="2016-01-30 14:56:53" type="datetime"  />                            
+		</columns>
+	</table>
+</tables>

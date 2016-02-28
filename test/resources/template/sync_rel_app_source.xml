@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- android_app.id = sync_rel_app_source.resource_id -->
+	<table name="sync_rel_app_source">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)" uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="source_id"  type="int(11)" uniqueSequenceNumber="1-3000" />
+			<column name="source_type" defaultValue="5"  type="tinyint(2)"  />
+			<column name="resource_id"  defaultValue="1" type="tinyint(3)"  />
+			<column name="resource_type" defaultValue="0" type="tinyint(2)" />
+			<column name="create_time" defaultValue="1419955199999" type="bigint(20)"  />
+			<column name="update_time" defaultValue="1419955199999" type="bigint(20)"  />
+			<column name="deleted" defaultValue="0" type="tinyint(2)"  />
+			<column name="sync_status" defaultValue="1" type="tinyint(2)"  />		
+			<column name="batch_id" defaultValue="1" type="varchar(30)"  />				
+		</columns>
+	</table>
+</tables>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="sync_package_increment_version" >
+    <columns>
+		<column name="id" type="int(11)" uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+		<column name="package_name" type="varchar(255)" defaultValue="com.UCMobile"/>
+		<column name="sign" type="varchar(36)" defaultValue="4c859bd5a6bec3ba4c864a90009b6b50"/>
+		<column name="version_code" type="int(11)" defaultValue="1"/>
+		<column name="app_id" type="int(11)" />
+		<column name="package_id" type="bigint(20)" defaultValue="600000097"/>
+		<column name="diff_file_list" type="text" defaultValue="file1:file2:file3" />
+		<column name="diff_ext" type="varchar(2048)" />
+		<column name="rff" type="varchar(36)" defaultValue="c3dd98a88333c6c42eb36bc866b823d0"/>
+		<column name="comp_pack_url" type="varchar(1024)" defaultValue="/fs01/2014/10/24/0_321b14b4c4c0c8bb7092a2f998090759.apk.rezip"/>
+		<column name="is_scan" type="tinyint(2)" defaultValue="0"/>
+		<column name="is_pack" type="tinyint(2)" defaultValue="1"/>
+		<column name="unpack_reasion" type="tinyint(2)" defaultValue="1"/>
+		<column name="create_time" type="bigint(20)" defaultValue="1414132842603"/>
+		<column name="update_time" type="bigint(20)" defaultValue="1414132842603"/>
+		<column name="deleted" type="tinyint(2)" defaultValue="0"/>
+		<column name="sync_status" type="tinyint(2)" defaultValue="0"/>
+		<column name="batch_id" type="varchar(30)" defaultValue="1"/>
+	</columns>
+ </table>
+</tables>

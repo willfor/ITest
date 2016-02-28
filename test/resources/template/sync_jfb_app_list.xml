@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="sync_jfb_app_list">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="app_id" type="int(11)" uniqueSequenceNumber="1-3000" />
+			<column name="package_name" defaultValue="com.wacai365" type="varchar(255)" />
+			<column name="version_id" defaultValue="1" type="bigint(20)" />
+			<column name="award_count" defaultValue="10" type="int(11)" />
+			<column name="stat" defaultValue="0" type="tinyint(4)" />
+			<column name="banner_url"
+				defaultValue="/fs01/2015/01/12/5/112_1466818f413929c381ae71ab3e7e72a1.jpeg"
+				type="varchar(255)" />
+			<column name="app_desc" defaultValue="最受欢迎的记账理财应用，懒人资产管理利器；独家银行级数据加密技术，更有中国平安保险承保。"
+				type="varchar(4096)" />
+			<column name="position" defaultValue="1" type="int(11)" />
+			<column name="create_time" defaultValue="1420356063088" type="bigint(20)" />
+			<column name="update_time" defaultValue="1420356063088" type="bigint(20)" />
+		</columns>
+	</table>
+</tables>

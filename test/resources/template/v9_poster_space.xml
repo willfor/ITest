@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 广告位 v9_poster.spaceid = v9_poster_space.spaceid -->
+	<table name="v9_poster_space">
+		<columns>
+			<column name="spaceid" type="smallint(5) unsigned"
+				uniqueSequenceNumber="1000-1200" autoIncrement="true"/>
+			<column name="siteid" defaultValue="1" type="smallint(5) unsigned"/>
+			<column name="name" defaultValue="3.0手机首页推荐广告" type="char(50)"
+				/>
+			<column name="type" defaultValue="banner" type="char(11)"
+				uniqueSequenceNumber="banner,fixure,text" />
+			<column name="path" defaultValue="poster_js/1113.js" type="char(40)"
+				/>
+			<column name="width" defaultValue="650" type="smallint(4) unsigned"
+				/>
+			<column name="height" defaultValue="400" type="smallint(4) unsigned"
+				 />
+			<column name="setting"
+				defaultValue="array (
+  'paddleft' => '',
+  'paddtop' => '',
+  )"
+				type="text" />
+			<column name="description" defaultValue="3.0版本精选首页推荐列表广告"
+				type="char(100)" />
+			<column name="items"  type="tinyint(3) unsigned"
+				uniqueSequenceNumber="1,2,3,4,5,6,7" />
+			<column name="disabled" defaultValue="0" type="tinyint(1) unsigned"/>
+			<column name="platform" defaultValue="1" type="tinyint(3)"
+				uniqueSequenceNumber="1,2,3,4" />
+		</columns>
+	</table>
+
+</tables>

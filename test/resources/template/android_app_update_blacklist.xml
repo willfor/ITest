@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+    <table name="android_app_update_blacklist" >
+        <columns>
+            <column name="id" type="int(10)" autoIncrement="true" />
+            <column name="app_id" type="int(11)" uniqueSequenceNumber="6500-6530" />
+            <column name="create_time" type="datetime" defaultValue=""/> 
+            <column name="update_time" type="datetime" defaultValue=""/>    
+        </columns>
+    </table>
+</tables>

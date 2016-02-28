@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="android_lingsheng">
+		<columns>
+			<column name="id" type="int" uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="catid" type="int" uniqueSequenceNumber="1-1000" />
+			<column name="title" type="char(100)" defaultValue="铃声title" />
+			<column name="download_url" type="char(255)" defaultValue="uploadfile/callring/1.mp3" />
+			<column name="filesize" type="varchar(10)" defaultValue="1M" />
+			<column name="duration" type="smallint" uniqueSequenceNumber="10-50" />
+			<column name="inputtime" type="int" defaultValue="1" />
+			<column name="updatetime" type="int" defaultValue="1" />
+			<column name="status" type="tinyint" defaultValue="1" />
+			<column name="username" type="char(20)" defaultValue="" />
+			<column name="publisher" type="char(20)" defaultValue="tsk" />
+			<column name="posup" type="tinyint" defaultValue="0" />
+			<column name="fromtype" type="int" defaultValue="0" />
+			<column name="list_order" type="int" defaultValue="0" />
+		</columns>
+	</table>
+</tables>

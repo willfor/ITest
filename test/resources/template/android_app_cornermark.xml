@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 应用角标表 android_app_cornermark -->
+	<table name="android_app_cornermark">
+		<columns>
+            <column name="id" type="int(11)" 
+                defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="true"/>
+            <column name="valid_start_time"
+				defaultValue="2015-01-30 14:56:53"
+				type="datetime" uniqueSequenceNumber="" />
+            <column name="valid_end_time"
+				defaultValue="2016-01-30 14:56:53"
+				type="datetime" uniqueSequenceNumber="" />
+             <column name="cm_type"
+				defaultValue="1"
+				type="tinyint(4)" uniqueSequenceNumber="" />           
+            <column name="status"
+				defaultValue="1"
+				type="tinyint(4)" uniqueSequenceNumber="" />                     
+		</columns>
+	</table>
+</tables>

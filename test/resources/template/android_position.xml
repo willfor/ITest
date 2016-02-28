@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!--推荐位管理表 -->
+	<table name="android_position">
+		<columns>
+			<column name="posid" type="smallint(5)" defaultValue="101" autoIncrement="true"/>
+			<column name="name" defaultValue="设备端-精品推荐" type="varchar(30)" />
+			<column name="maxnum" defaultValue="100" type="smallint(5)" />
+			<column name="listorder" type="smallint(5)" uniqueSequenceNumber="101,201,301,401,402" />
+			<column name="siteid" defaultValue="1" type="smallint(5)" />
+			<column name="visible" defaultValue="1" type="tinyint(1)" />
+
+		</columns>
+	</table>
+</tables>

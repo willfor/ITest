@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	    <table name="android_personality_wechatface_pic_detail">
+          <columns>
+              <column name="ID" type="int(11)" defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="true" />
+              <column name="package_id" type="int(11)" defaultValue="" uniqueSequenceNumber="1-300" />
+              <column name="png_file_path" type="varchar(256)" defaultValue=""  />
+              <column name="gif_file_path" type="varchar(256)" defaultValue=""  />
+              <column name="name" type="varchar(64)" defaultValue=""  />
+              <column name="x_axis" type="float" defaultValue="0"  />
+              <column name="y_axis" type="float" defaultValue="0"  />
+          </columns>
+      </table>
+</tables>

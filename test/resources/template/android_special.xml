@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_special" >
+	<columns>
+		<column name="id" type="smallint(5)" autoIncrement="true"/>
+		<column name="title" type="char(60)" defaultValue="安卓小人跑酷游戏合集！"/>
+		<column name="catid" type="mediumint(8)" />
+		<column name="thumb" type="char(100)" defaultValue="uploadfile/special/images/2013/0509/20130509052926487.jpg"/>
+		<column name="banner" type="char(100)" defaultValue="uploadfile/special/images/2013/0509/20130509052915210.jpg"/>
+		<column name="description" type="char(255)" defaultValue="精致的女人,才懂得享受生活,才能够承受富贵;"/>
+		<column name="username" type="char(40)" defaultValue="luyingying"/>
+		<column name="userid" type="mediumint(8)" defaultValue="111"/>
+		<column name="createtime" type="int(10)" defaultValue="1368091667" />
+		<column name="updatetime" type="int(10)" defaultValue="1368091667" />
+		<column name="listorder" type="smallint(5)" defaultValue="0" />
+		<column name="elite" type="tinyint(1)" defaultValue="1"/>
+		<column name="disabled" type="tinyint(1)" defaultValue="0"/>
+		<column name="aweb_pic" type="varchar(100)" defaultValue="uploadfile/special/images/2014/0305/20140305103002807.jpg"/>
+		<column name="adc_pic" type="varchar(255)" defaultValue="uploadfile/special/images/2014/0305/20140305102941277.jpg"/>
+		<column name="apc_pic" type="varchar(255)" defaultValue="uploadfile/special/images/2014/0305/20140305103016119.jpg"/>
+		<column name="hide" type="tinyint(4)" defaultValue="0"/>
+		<column name="adc_high_pic" type="varchar(255)" defaultValue="uploadfile/special/images/2014/0305/20140305103002807.jpg" />
+		<column name="adc_great_pic" type="varchar(255)" defaultValue="uploadfile/special/images/2014/0305/20140305103002807.jpg"/>
+		<column name="is_hq" type="tinyint(3)" defaultValue="0"/>
+	</columns>
+	</table>
+</tables>

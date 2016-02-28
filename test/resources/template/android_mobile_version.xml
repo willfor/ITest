@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="android_mobile_version">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="versionCode" defaultValue="1" type="varchar(255)" />
+			<column name="productId" defaultValue="2001" type="varchar(255)" />
+			<column name="packageName" defaultValue="2001" type="varchar(255)" />
+			<column name="versionName" defaultValue="2001" type="varchar(255)" />
+			<column name="isForceUpdate" defaultValue="1" type="int(3)" />
+			<column name="updateDes" defaultValue="update o" type="varchar(255)" />
+		</columns>
+	</table>
+</tables>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- android_app.id = sync_rel_app_source.app_id -->
+	<table name="jfb_app_cnt">
+		<columns>
+			<column name="app_id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="package_name" defaultValue="com.wacai365" type="varchar(255)" />
+			<column name="award_times" defaultValue="5" type="int(11)" />
+			<column name="recent_users" defaultValue="1" type="varchar(512)" />
+			<column name="create_time" defaultValue="1419955199999" type="bigint(20)" />
+			<column name="update_time" defaultValue="1419955199999" type="bigint(20)" />
+		</columns>
+	</table>
+</tables>

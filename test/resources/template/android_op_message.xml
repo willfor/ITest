@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_op_message" >
+ 	 <columns>
+		<column name="id" type="int(11)" uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+		<column name="priority" type="int(11)" defaultValue="1"/>
+		<column name="name" type="varchar(128)" defaultValue="双十一专题--测试" />
+		<column name="remark" type="varchar(1024)" defaultValue="备注神马的很有必要"/>
+		<column name="legaltime_start" type="datetime" />
+		<column name="legaltime_end" type="datetime" />
+		<column name="max_count" type="bigint(20)" defaultValue="1000"/>
+		<column name="icon_url" type="varchar(512)" />
+		<column name="title" type="varchar(128)" defaultValue="双十一专题--测试"/>
+		<column name="content" type="varchar(1024)" defaultValue="大图片"/>
+		<column name="is_ring" type="tinyint(4)" defaultValue="0"/>
+		<column name="ticker" type="varchar(128)" />
+		<column name="display_time" type="varchar(5)" />
+		<column name="resource_type" type="int(11)" defaultValue="0"/>
+		<column name="destination" type="varchar(512)" />
+		<column name="channel_ids" type="varchar(512)" />
+		<column name="version_codes" type="varchar(512)" />
+		<column name="version_names" type="varchar(512)" />
+		<column name="silence_distance" type="int(11)" defaultValue="10"/>
+		<column name="prov" type="varchar(64)" />
+		<column name="city" type="varchar(64)" />
+		<column name="status" type="tinyint(4)" defaultValue="1"/>
+		<column name="pulled_count" type="int(11)" defaultValue="0"/>
+		<column name="specified_appids" type="varchar(512)" />
+		</columns>
+	</table>
+</tables>

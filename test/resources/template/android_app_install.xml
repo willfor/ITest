@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	     <table name="android_app_install">
+          <columns>
+              <column name="appid" defaultValue="" type ="int(11)" uniqueSequenceNumber="1-300" />
+              <column name="buid" defaultValue="" type="varchar(255)"  />
+              <column name="installs" defaultValue="0" type="int(10)"  />
+              <column name="weekinstalls" defaultValue="0" type="int(10)"  />
+              <column name="monthinstalls" defaultValue="0" type="int(10)"  />
+              <column name="updatetime" defaultValue="0" type="int(10)"  />
+              <column name="os_installs" defaultValue="0" type="int(10)"  />
+              <column name="pc_installs" defaultValue="0" type="int(10)"  />
+              <column name="os_install_count_0" defaultValue="0" type="int(11)"  />
+              <column name="pc_install_count_0" defaultValue="0" type="int(11)"  />
+              <column name="os_install_count_1" defaultValue="0" type="int(11)"  />
+              <column name="pc_install_count_1" defaultValue="0" type="int(11)"  />
+              <column name="os_install_count_2" defaultValue="0" type="int(11)"  />
+              <column name="pc_install_count_2" defaultValue="0" type="int(11)"  />
+          </columns>
+      </table>
+</tables>

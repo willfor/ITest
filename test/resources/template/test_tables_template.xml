@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<tableGroups>
+		<tableGroup name="app" mainTable="android_app" key="id">
+			<gTable name="android_app_detail" fk="apkid" referencekey="id" />
+			<gTable name="android_app_version" fk="apkid" referencekey="id" />
+			<gTable name="android_app_category" fk="catid" referencekey="app_catid" />
+			<gTable name="android_category" fk="catid" referencekey="app_catid" />
+		</tableGroup>
+		<tableGroup name="position" mainTable="android_position" key="posid">
+			<gTable name="android_position_data" fk="posid" referencekey="posid" />
+		</tableGroup>
+	</tableGroups>
+</tables>

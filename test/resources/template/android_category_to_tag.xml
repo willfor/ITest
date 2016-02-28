@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	    <table name="android_category_to_tag">
+        <columns>
+            <column name="id" type="int(11)" uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+            <column name="cat_id" type="int(11)" uniqueSequenceNumber="1-3000" />
+            <column name="tag_id" type="int(11)" uniqueSequenceNumber="1-3000" />
+        </columns>
+    </table>
+</tables>

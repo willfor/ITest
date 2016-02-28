@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="user_download_log" >
+		<column name="id" type="bigint(20)" autoIncrement="true" />
+		<column name="platform" type="tinyint(1)" defaultValue="2"/>
+		<column name="uid" type="int(40)" />
+		<column name="aid" type="int(11)" />
+		<column name="modelid" type="smallint(4)" defaultValue="2"/>
+		<column name="createtime" type="int(11)" defaultValue="1"/>
+		<column name="ip" type="char(15)" defaultValue="127.0.0.1"/>
+		<column name="version" type="varchar(255)" defaultValue="1.0.0"/>
+		<column name="fileSize" type="varchar(63)" defaultValue="1.0M"/>
+		<column name="status" type="tinyint(2)" defaultValue="99"/>
+		<column name="account_type" type="tinyint(1)" />
+	</table>
+</tables>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="sync_package_history" ddlClass="core.support.resource.ddl.SyncPackageHistory"
+		shardColumn="app_id" modebase="8">
+		<columns>
+			<column name="id" attributeName="id" type="bigint(20)" uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="app_id" attributeName="appId" defaultValue="1" type="int(11)" />
+			<column name="package_name" attributeName="packageName" defaultValue="com.leafson.quanzhou" type="varchar(255)" />
+			<column name="version_code" attributeName="versionCode" defaultValue="2001" type="int(11)" />
+			<column name="version_name" attributeName="versionName" defaultValue="1" type="varchar(255)" />
+			<column name="sign" attributeName="sign" defaultValue="1" type="varchar(50)" />
+			<column name="md5" attributeName="md5" defaultValue="" type="varchar(50)" />
+			<column name="short_md5" attributeName="short_md5" defaultValue="" type="char(32)" />
+			<column name="crc32" attributeName="crc32" defaultValue="" type="char(32)" />
+			<column name="zff" attributeName="zff" defaultValue="" type="varchar(36)" />
+			<column name="min_sdk_version" attributeName="min_sdk_version" defaultValue="" type="int(5)" />
+			<column name="download_url" attributeName="downloadUrl" defaultValue="1" type="varchar(255)" />
+			<column name="size" attributeName="size" defaultValue="1024" type="bigint(20)" />
+			<column name="create_time" attributeName="createTime" defaultValue="1" type="bigint(20)" />
+			<column name="update_time" attributeName="updatetime" defaultValue="1" type="bigint(20)" />
+			<column name="deleted" attributeName="deleted" defaultValue="0" type="bigint(20)" />
+			<column name="state" attributeName="state" defaultValue="0" type="tinyint(2)" />
+			<column name="cp_type" attributeName="cp_type" defaultValue="6" type="tinyint(4)" />
+			<column name="market_id" attributeName="market_id" defaultValue="6" type="tinyint(4)" />
+			<column name="source" attributeName="source" defaultValue="0" type="int(50)" />
+			<column name="sync_status" defaultValue="1" type="tinyint(2)" />
+			<column name="batch_id" defaultValue="1" type="varchar(30)" />
+			<column name="business_history_id" attributeName="business_history_id" defaultValue="" type="bigint(20)" />
+		</columns>
+	</table>
+</tables>

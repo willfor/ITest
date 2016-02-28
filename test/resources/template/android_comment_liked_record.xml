@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_comment_liked_record">
+		<columns>
+			<column name="id" type="int(11)" autoIncrement="true" />
+			<column name="uuid" type="varchar(128)" defaultValue="" />
+			<column name="comment_id" type="int(11)" defaultValue="" />
+			<column name="create_time" type="bigint(20)" defaultValue="1414465204004" />
+		</columns>
+	</table>
+</tables>

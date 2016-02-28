@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	 <table name="android_category" >
+    <columns>
+		<column name="catid" type="smallint(5)" />
+		<column name="catname" type="varchar(30)"  uniqueSequenceNumber="软件,游戏"/>
+		<column name="module" type="varchar(10)" uniqueSequenceNumber="bizhi,lingsheng,head,head2,expression"  />
+		<column name="description" type="mediumtext" uniqueSequenceNumber="软件,游戏" />
+		<column name="image" type="varchar(255)" defaultValue="uploadfile/category/images/2014/0712/20140712010609598.png" />
+		<column name="items" type="mediumint(8)" defaultValue="0"/>
+		<column name="listorder" type="smallint(5)" uniqueSequenceNumber="1-3000"/>
+	</columns>
+	</table>
+</tables>

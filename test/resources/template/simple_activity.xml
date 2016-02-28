@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 有奖活动表 simple_activity -->
+	<table name="simple_activity">
+		<columns>
+            <column name="id" type="int(11)" 
+                defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="true"/>
+            <column name="app_id" defaultValue="1" type="int(11)"  />      
+            <column name="title" defaultValue="有奖活动" type="varchar(255)"  />   				
+            <column name="type" defaultValue="1" type="tinyint(2)"  />             
+            <column name="state" defaultValue="0" type="tinyint(2)"  />                      
+            <column name="create_time" defaultValue="2015-01-30 14:56:53" type="datetime" />
+            <column name="update_time" defaultValue="2015-01-30 14:56:53" type="datetime" />
+            <column name="start_time" defaultValue="2015-01-30 14:56:53" type="datetime" />
+            <column name="end_time" defaultValue="2016-01-30 14:56:53" type="datetime" />                        
+            <column name="list_order" defaultValue="0" type="int(11)" uniqueSequenceNumber="" />                              
+		</columns>
+	</table>
+</tables>

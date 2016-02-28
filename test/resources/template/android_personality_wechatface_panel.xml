@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="android_personality_wechatface_panel" >
+	<columns>
+		<column name="id" type="int(10)" autoIncrement="true"/>
+		<column name="list_order" type="int(11)" />
+		<column name="create_time" type="datetime" defaultValue="2015-01-17 10:49:40"/>
+		<column name="update_time" type="datetime" defaultValue="2015-01-17 10:49:40"/>
+		<column name="face_tab_id" type="int(11)" />
+	</columns>
+	</table>
+</tables>

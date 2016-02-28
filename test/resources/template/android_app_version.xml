@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 应用版本表 android_app.id = android_app_version.apkid -->
+	<table name="android_app_version">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="1-3000" autoIncrement="true"/>
+			<column name="apkid" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="6500-6530" />
+			<column name="version" defaultValue="500000088" type="varchar(150)"
+				 />
+			<column name="status" defaultValue="1" type="tinyint(2)"
+				uniqueSequenceNumber="1,2,3" />
+			<column name="is_latest" defaultValue="1" type="tinyint(2)"
+				uniqueSequenceNumber="0,1" />
+			<column name="filePath" defaultValue="/2014/08/20/1408498548_29454192654.apk"
+				type="varchar(255)"  />
+			<column name="star" defaultValue="8" type="float"  />
+			<column name="comment_total" defaultValue="10" type="int(11)"
+				 />
+			<column name="fileSize" defaultValue="" type="varchar(63)"
+				 />
+			<column name="star_total" defaultValue="10" type="float"
+				 />
+			<column name="inputtime" defaultValue="0" type="int(11)"
+				 />
+			<column name="updatetime" defaultValue="0" type="int(11)"
+				 />
+
+		</columns>
+	</table>
+</tables>

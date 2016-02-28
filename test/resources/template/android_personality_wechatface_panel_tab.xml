@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	    <table name="android_personality_wechatface_panel_tab">
+          <columns>
+              <column name="id" type="int(10)" defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="true"/>
+              <column name="data" type="varchar(100)" defaultValue=""  />
+              <column name="create_time" type="datetime" defaultValue=""  />
+              <column name="update_time" type="datetime" defaultValue=""  />
+              <column name="comment" type="varchar(250)" defaultValue=""  />
+              <column name="name" type="varchar(50)" defaultValue="wechatface_panel_tab_name_default"  />
+              <column name="type" type="int(1)" defaultValue=""  />
+          </columns>
+      </table>
+</tables>

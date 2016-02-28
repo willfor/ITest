@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+		<table name="android_user_profile">
+		<columns>
+			<column name="uid" defaultValue="" type="bigint(20)"
+				uniqueSequenceNumber="1-3000" />
+			<column name="avatar_state" defaultValue="1" type="smallint(6)" />
+			<column name="is_stop_speak" defaultValue="0" type="tinyint(4)" />
+		</columns>
+	</table>
+</tables>

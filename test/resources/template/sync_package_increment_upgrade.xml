@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+    <table name="sync_package_increment_upgrade">
+        <columns>
+            <column name="incr_id" type="int(11)" autoIncrement="true" />
+            <column name="from_pack_id"	type="int(11)" defaultValue="" />
+            <column name="to_pack_id" type="int(11)" defaultValue="" />
+            <column name="state" type="tinyint(2)" defaultValue="0" />
+            <column name="origin_pack_url" type="varchar(1024)" defaultValue="/2014/07/01/test_origin.apk" />
+            <column name="origin_pack_md5" type="varchar(50)" defaultValue="098f6bcd4621d373cade4e832627b4f6" />
+            <column name="origin_pack_size" type="bigint(20)" defaultValue="2048" />
+            <column name="incr_pack_url" type="varchar(1024)" defaultValue="/2014/07/02/test_pack.apk" />
+            <column name="incr_pack_md5" type="varchar(50)" defaultValue="098f6bcd4621d373cade4e832627b444" />
+            <column name="short_md5" type="char(32)" defaultValue="098f6bcd4621d373cade4e832627b555" />
+            <column name="crc32" type="char(32)" defaultValue="098f6bcd4621d373cade4e832627b666" />
+            <column name="incr_pack_size" type="bigint(20)" defaultValue="1024" />
+            <column name="create_time" type="bigint(20)" defaultValue="" />
+            <column name="update_time" type="bigint(20)" defaultValue="" />
+            <column name="deleted" type="tinyint(2)" defaultValue="0" />
+            <column name="sync_status" type="tinyint(2)" defaultValue="1" />
+            <column name="batch_id" type="varchar(30)" defaultValue="1" />
+        </columns>
+    </table>
+</tables>

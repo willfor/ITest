@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_app_collection">
+	<columns>
+		<column name="id" type="bigint(20)" autoIncrement="true"/>
+		<column name="user_id" type="bigint(20)" defaultValue="1000200"/>
+		<column name="user_IP" type="varchar(16)" defaultValue=""/>
+		<column name="flag" type="int(11)" defaultValue="0"/>
+		<column name="res_type" type="int(11)" defaultValue="1"/>
+		<column name="data_id" type="bigint(20)" />
+		<column name="status" type="int(11)" defaultValue="99"/>
+		<column name="createtime" type="int(11)" defaultValue="1"/>
+		<column name="account_type" type="tinyint(1)" defaultValue="1" />
+	</columns>
+	</table>
+</tables>

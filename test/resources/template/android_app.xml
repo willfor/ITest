@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<!-- 应用基础表 -->
+	<table name="android_app">
+		<columns>
+			<column name="id" defaultValue="" type="int(11)"
+				uniqueSequenceNumber="6500-6530" autoIncrement="true"/>
+			<column name="catid" defaultValue="5014" type="int(11)" />
+			<column name="name" type="varchar(255)" uniqueSequenceNumber="懒人周末,UC,QQ,taobao,PP Assistant" />
+			<column name="bundleId" defaultValue="com.lanrenzhoumo.weekend"
+				type="varchar(255)"  />
+			<column name="versionCode" defaultValue="11" type="int(11)"/>
+			<column name="versionName" defaultValue="1.0.1" type="varchar(255)"/>
+			<column name="minSdkVersion" defaultValue="2.3.2" type="varchar(127)"/>
+			<column name="fileSize" defaultValue="7.38M" type="varchar(63)"/>
+			<column name="status" defaultValue="99" type="int(11)" uniqueSequenceNumber="99,355" />
+			<column name="filePath"
+				defaultValue="/fs01/2014/11/11/2_5b5561e81dde429559b8eb30024e3cce.apk"
+				type="varchar(255)"  />
+			<column name="artwork"
+				defaultValue="/fs01/2014/11/11/2_ea6f3690ea6c8becf4cf4a342a7aeb73.png"
+				type="varchar(255)"  />
+			<column name="posup" defaultValue="0" type="tinyint(4)"
+				uniqueSequenceNumber="0,1" />
+			<column name="posids" defaultValue="0" type="tinyint(4)"
+				uniqueSequenceNumber="0,1" />
+			<column name="up" defaultValue="0" type="int(11)" uniqueSequenceNumber="1-100" />
+			<column name="down" defaultValue="0" type="int(11)" uniqueSequenceNumber="1-100" />
+			<column name="comment_total" defaultValue="0" type="int(11)"/>
+			<column name="multiple_version" defaultValue="0" type="tinyint(2)"/>
+			<column name="latest_vid" defaultValue="500000088" type="int(20)"/>
+			<column name="notupdate" defaultValue="1" type="tinyint(2) unsigned"/>
+			<column name="verify" defaultValue="1" type="tinyint(2)"/>
+			<column name="signature" defaultValue="e8eb87439d3a3921db3881823c308993"
+				type="varchar(32)"  />
+			<column name="md5" defaultValue="22e0aa974022bef1dd9333333d2bc214"
+				type="varchar(40)"  />
+			<column name="app_catid" defaultValue="5014" type="int(11)" />
+			<column name="sub_category" defaultValue="旅游,出行" type="varchar(500)"/>
+			<column name="sub_catid" defaultValue="616" type="varchar(500)"
+				 />
+			<column name="data_packet" defaultValue="0" type="tinyint(3)"
+				uniqueSequenceNumber="0,1" />
+			<column name="is_bad_word" defaultValue="0" type="tinyint(3)"
+				uniqueSequenceNumber="0,1" />
+			<column name="uc" defaultValue="0" type="tinyint(4)" uniqueSequenceNumber="0,1" />
+			<column name="is_check" defaultValue="1" type="tinyint(4)"
+				uniqueSequenceNumber="0,1,2,3,4,5" />
+			<column name="total_size" defaultValue="7735069" type="bigint(22)"
+				 />
+			<column name="set_bottom" defaultValue="0" type="tinyint(3)"
+				uniqueSequenceNumber="0,1" />
+			<column name="updateDate" type="datetime" defaultMethod="com.uc.jtest.utils.DateUtil.getCurrentDate()"/>
+		</columns>
+	</table>
+</tables>

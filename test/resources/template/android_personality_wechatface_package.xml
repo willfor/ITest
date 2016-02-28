@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	   <table name="android_personality_wechatface_package">
+          <columns>
+              <column name="id" type="int(11)" defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="true"/>
+              <column name="category_name" type="varchar(64)" defaultValue="wechatface_package_category_name_default"  />
+              <column name="is_hot" type="tinyint(4)" defaultValue="0"  />
+              <column name="is_newest" type="tinyint(4)" defaultValue="0"  />
+              <column name="is_recommend" type="tinyint(4)" defaultValue="1"  />
+              <column name="name" type="varchar(64)" defaultValue="wechatface_package_name"  />
+              <column name="package_name" type="varchar(128)" defaultValue="wechatface_package_package_name_default"  />
+              <column name="tag_names" type="varchar(256)" defaultValue=""  />
+              <column name="file_format" type="varchar(8)" defaultValue=".jpg"  />
+              <column name="file_size" type="int(11)" defaultValue="1024"  />
+              <column name="file_path" type="varchar(256)" defaultValue="/2014/01/01/wechatface_package_file_path_default.jpg"  />
+              <column name="compatibility" type="varchar(64)" defaultValue=""  />
+              <column name="source_site" type="varchar(256)" defaultValue=""  />
+              <column name="collect_download_count" type="int(11)" defaultValue="0"  />
+              <column name="download_count" type="int(11)" defaultValue="0"  />
+              <column name="listorder" type="int(11)" defaultValue="0"  />
+              <column name="recommend_words" type="varchar(128)" defaultValue=""  />
+              <column name="description" type="varchar(256)" defaultValue=""  />
+              <column name="update_time" type="datetime" defaultValue=""  />
+              <column name="create_time" type="datetime" defaultValue=""  />
+              <column name="intr_pic" type="varchar(256)" defaultValue=""  />
+              <column name="status" type="int(11)" defaultValue="1"  />
+              <column name="type" type="int(11)" defaultValue="1"  />
+          </columns>
+      </table>
+</tables>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	    <table name="android_bizhi" >
+          <columns>
+              <column name="id" type="int(11)" uniqueSequenceNumber="1-300" autoIncrement="true" />
+              <column name="src_id" type="int(11)" uniqueSequenceNumber="1-300" />
+              <column name="catid" type="int(11)" defaultValue="5014"  />
+              <column name="title" type="char(100)" defaultValue=""  />
+              <column name="download_url" type="char(100)" defaultValue="/fs01/2014/11/12/01/bizhi.png"  />
+              <column name="src_downurl" type="varchar(100)" defaultValue=""  />
+              <column name="filesize" type="varchar(100)" defaultValue="100KB"  />
+              <column name="bizhi_wh" type="char(20)" defaultValue="100x60"  />
+              <column name="inputtime" type="int(11)" defaultValue="0"  />
+              <column name="updatetime" type="int(11)" defaultValue="0"  />
+              <column name="username" type="char(20)" defaultValue=""  />
+              <column name="status" type="tinyint(2)" defaultValue="1"  />
+              <column name="publisher" type="char(20)" defaultValue=""  />
+              <column name="posup" type="tinyint(2)" defaultValue="0"  />
+              <column name="fromtype" type="int(11)" defaultValue="0"  />
+              <column name="dc_thumb_url" type="varchar(100)" defaultValue=""  />
+              <column name="list_order" type="int(11)" defaultValue="0"  />
+          </columns>
+      </table>
+</tables>

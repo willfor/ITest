@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="android_special_tag" >
+	<columns>
+		<column name="id" type="int(11)" autoIncrement="true"/>
+		<column name="name" type="varchar(128)" defaultValue="子专题2测试测试的地方"/>
+		<column name="description" type="varchar(255)" />
+		<column name="listorder" type="int(11)" />
+		<column name="spec_id" type="int(11)" />
+	</columns>
+	</table>
+</tables>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	   <table name="android_personality_qqavatar_panel">
+          <columns>
+              <column name="id" type="int(11)" uniqueSequenceNumber="1-300" autoIncrement="false"/>
+              <column name="cat_id" type="int(11)" uniqueSequenceNumber="1-300" />
+              <column name="list_order" type="int(11)" defaultValue="0"  />
+              <column name="create_time" type="datetime" defaultValue="2014-09-24 13:58:23"  />
+              <column name="update_time" type="datetime" defaultValue="2014-09-24 13:58:23"  />
+          </columns>
+      </table>
+</tables>

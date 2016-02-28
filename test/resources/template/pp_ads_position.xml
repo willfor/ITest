@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="pp_ads_position" >
+		 <columns>
+			<column name="id" type="smallint(8)" autoIncrement="true"/>
+			<column name="obj_table" type="varchar(255)" />
+			<column name="position_type" type="int(11)" />
+			<column name="type" type="smallint(3)" />
+			<column name="platform" type="smallint(3)" />
+			<column name="position" type="smallint(3)" />
+			<column name="name" type="varchar(100)" />
+			<column name="description" type="varchar(255)" />
+			<column name="items" type="smallint(5)" />
+			<column name="disabled" type="tinyint(1)" />
+		 </columns>
+	  </table>
+</tables>

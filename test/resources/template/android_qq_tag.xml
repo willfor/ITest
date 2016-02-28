@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	   <table name="android_qq_tag">
+          <columns>
+              <column name="id" type="int(11)" defaultValue="" uniqueSequenceNumber="1-300" autoIncrement="false"/>
+              <column name="name" type="varchar(50))" defaultValue="qq_tag_name_default"  />
+              <column name="createtime" type="datetime" defaultValue="2014-09-24 13:58:23"  />
+              <column name="updatetime" type="datetime" defaultValue="2014-09-24 13:58:23"  />
+          </columns>
+      </table>
+</tables>
